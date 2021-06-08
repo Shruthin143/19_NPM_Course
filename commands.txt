@@ -1,0 +1,20 @@
+npm -v
+npm or npm -help //brings the help page
+Package.json file
+npm init --yes //creates package.json with default 
+npm config set init-author-name "Shruthin" //config is used to create json with changed defaults
+npm get init-author-name //gives the current name
+npm config delete ini-author-name //erases the initial custom set values
+npm install lodash --save //install lodash and saves the information to package.json
+npm install //will install all the packages
+npm install --production //will install only the packages required for production
+npm uninstall(or rm or remove) gulp-sass --save-dev //uninstalls gulp-sass(dependency) and updates the package.json file
+npm update lodash //will update to the latest version
+Semantic versioning // 8.2.6 (major.minor.patch)
+^8.2.6 will install the latest minor version while reinstalling
+`8.2.6 will install only patch updates while cloning or reinstalling
+8.2.6 will only install the exact version
+GLOBAL package: npm install -g nodemon 
+to see where it is installed: npm root-g
+npm list //shows all the dependencies
+know about npm scripts
